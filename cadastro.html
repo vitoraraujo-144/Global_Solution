@@ -3,25 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/index.css">
     <title>cadastro</title>
 
 </head>
 <body>
     <div class="cadastro-page">
         <h2>Bem vindo!</h2>
-        <form action="#">
-            <div class="input-area">
-                <input type="name" id="name" placeholder="Nome completo" required>
-            </div>
-            <div class="input-area">
-                <input type="email" id="email" placeholder="Email" required>
-            </div>
-            <div class="input-area">
-                <input type="password" id="password" placeholder="Senha" required>
-            </div>
-                <button type="submit" class="cadastro"> <a href="menu.html">Cadastre-se</a></button>
-                <p>Já tem uma conta? <a href="index.html" class="login">Faça login</a></p>
+        <form action="#" class="input-area">
+            
+            <label for="nome"></label>
+            <input type="name" id="name" placeholder="Nome completo" required>
+            
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Email" required>
+
+            <label for="telefone"></label>
+            <input type="tel" id="telefone" placeholder="Telefone" required>
+            
+            <label for="password"></label>
+            <input type="password" id="password" placeholder="Senha" required>
+            
+            <button type="submit" class="cadastro"> <a href="login.html">Cadastre-se</a></button>
+            <p>Já tem uma conta? <a href="login.html" class="login">Faça login</a></p>
 
         </form>
     </div>

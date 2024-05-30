@@ -1,5 +1,5 @@
 body{
-    background: url(img/vertical-shot-foamy-waves-water-sea.jpg) no-repeat;
+    background: url(../img/sea.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     background-color: #3f8dc0;
@@ -24,7 +24,7 @@ body{
 
 .cadastro-page{
     width: 400px;
-    height: 400px;
+    height: 480px;
     text-align: center;
     border: 1px solid rgb(241, 241, 241);
     border-radius: 12px;
@@ -48,8 +48,9 @@ body{
 
 .input-area input[type="name"],
 .input-area input[type="email"],
-.input-area input[type="password"]{
-    margin: 0 autoZ;
+.input-area input[type="password"],
+.input-area input[type="tel"]{
+    margin: 0 auto;
     border-radius: 10px;
     background: transparent;
     margin: 15px;
@@ -73,6 +74,7 @@ input::placeholder{
 
 .input-area input[type="name"]:focus::placeholder,
 .input-area input[type="email"]:focus::placeholder,
+.input-area input[type="tel"]:focus::placeholder,
 .input-area input[type="password"]:focus::placeholder{
     transform: translateY(-100%);
     transition: transform 0.2s ease-in-out;
@@ -81,6 +83,7 @@ input::placeholder{
 
 .input-area input[type="name"]:not(:focus)::placeholder,
 .input-area input[type="email"]:not(:focus)::placeholder,
+.input-area input[type="tel"]:not(:focus)::placeholder,
 .input-area input[type="password"]:not(:focus)::placeholder{
     transform: translateY(0%);
     transition: transform 0.2s ease-in-out;
