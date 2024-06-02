@@ -23,7 +23,7 @@ nav{
 nav .logo{
     font-size: 70px;
     font-style: oblique;
-    color: rgba(0, 132, 255, 0.325);
+    color: rgba(0, 132, 255, 0.719);
     font-weight: bold;
 }
 
@@ -49,11 +49,13 @@ nav ul li a:hover{
     background-color: rgba(0, 132, 255, 0.325);
 }
 
-/* conteudo */
-
 body{
     background-color:#c3e3fd;
 }
+
+/* conteudo */
+
+
 
 
 h1{
