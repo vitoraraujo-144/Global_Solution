@@ -50,7 +50,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    background-color: rgba(3, 3, 93, 0.499);
+    background-color: rgba(5, 5, 122, 0.871);
 }
 
 /* conteudo */
@@ -74,7 +74,7 @@ nav ul li a:hover{
 
 
 
-/* RODAPE */
+                                                            /* RODAPE */
 
 /* redes sociais */
 .redes{
@@ -86,7 +86,6 @@ nav ul li a:hover{
       
 }
 
-
 .redes h2{
     font-style: oblique;
     font-size: 30px;
@@ -97,10 +96,8 @@ nav ul li a:hover{
 .redes img{
     height: 60px;
     margin-top: 30px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
-
-
 
 
 /* parceiros */
@@ -121,12 +118,10 @@ nav ul li a:hover{
 .parceiros img{
     height: 60px;
     margin-top: 30px;
-    margin-left: 15px;
+    margin-left: 10px;
     border-radius: 10px;
 
 }
-
-
 
 
 /* contato */
