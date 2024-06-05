@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/ca-lo.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/ca-lo.css" />
     <script src="./js/script.js"></script>
     <title>cadastro</title>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="cadastro-page">
-        <h2>Cadastro</h2>
-        <form action="#" class="input-area">
+      <h2>Cadastro</h2>
+      <form action="#" class="input-area">
+        <label for="nome"></label>
+        <input type="name" id="name" placeholder="Nome completo" />
 
-            <label for="nome"></label>
-            <input type="name" id="name" placeholder="Nome completo">
+        <label for="email"></label>
+        <input type="email" id="cadastroEmail" placeholder="Email" required />
 
-            <label for="email"></label>
-            <input type="email" id="cadastroEmail" placeholder="Email" required>
+        <label for="telefone"></label>
+        <input type="tel" id="telefone" placeholder="Telefone" />
 
-            <label for="telefone"></label>
-            <input type="tel" id="telefone" placeholder="Telefone">
+        <label for="password"></label>
+        <input
+          type="password"
+          id="cadastroSenha"
+          placeholder="Senha"
+          required
+        />
 
-            <label for="password"></label>
-            <input type="password" id="cadastroSenha" placeholder="Senha" required>
-
-            <button type="submit" class="cadastro">Cadastrar</button>
-            <p>Já tem uma conta? <a href="login.html" class="login">Faça login</a></p>
-
-        </form>
-        <p id="mensagemCadastro"></p>
+        <button type="submit" class="cadastro">Cadastrar</button>
+        <p>
+          Já tem uma conta? <a href="login.html" class="login">Faça login</a>
+        </p>
+      </form>
+      <p id="mensagemCadastro"></p>
     </div>
-</body>
-
+  </body>
 </html>

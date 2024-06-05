@@ -269,6 +269,12 @@ footer {
   .vi {
     margin-left: 0;
   }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+  }
 }
 
 /* Tablets */
@@ -311,6 +317,12 @@ footer {
   .duda,
   .vi {
     margin-left: 0;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
   }
 }
 

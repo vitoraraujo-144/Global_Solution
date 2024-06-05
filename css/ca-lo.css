@@ -149,6 +149,12 @@ a.cadastro:hover {
     width: 150px;
     height: 40px;
   }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+  }
 }
 
 /* Tablets */
@@ -176,6 +182,12 @@ a.cadastro:hover {
   .cadastro-page .cadastro {
     width: 180px;
     height: 35px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
   }
 }
 

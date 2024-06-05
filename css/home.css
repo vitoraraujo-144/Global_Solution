@@ -6,7 +6,8 @@
 }
 
 body {
-  background-image: linear-gradient(#00000001, #00000063), url(../img/mar-home.jpg);
+  background-image: linear-gradient(#00000001, #00000063),
+    url(../img/mar-home.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -225,11 +226,19 @@ footer {
   .redes img,
   .parceiros img {
     height: 40px;
+    display: flex;
+    flex-direction: row;
   }
 
   .ftato input,
   textarea {
     min-width: 100%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
   }
 }
 
@@ -261,6 +270,12 @@ footer {
   .ftato input,
   textarea {
     min-width: 250px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
   }
 }
 
