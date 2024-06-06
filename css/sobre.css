@@ -90,6 +90,7 @@ h2 {
   justify-content: center;
 }
 
+.email,
 .nomes,
 .rm {
   font-style: normal;
@@ -99,11 +100,12 @@ h2 {
 }
 
 .gu {
+  
   margin-left: 150px;
 }
 
 .duda {
-  margin-left: 125px;
+  padding: 0 0 0 175px;
   margin-top: 40px;
 }
 
