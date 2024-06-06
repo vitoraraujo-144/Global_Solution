@@ -6,8 +6,7 @@
 }
 
 body {
-  background-image: linear-gradient(#00000001, #00000063),
-    url(../img/mar-home.jpg);
+  background-image: linear-gradient(#00000001, #00000063), url(../img/mar-home.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
