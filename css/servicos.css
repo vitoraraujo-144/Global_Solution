@@ -82,6 +82,10 @@ p {
   justify-content: center;
 }
 
+.chat{
+  display: flex;
+  justify-content: center;
+}
 /* rodape */
 
 /* redes sociais */
