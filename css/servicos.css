@@ -77,6 +77,11 @@ p {
   text-align: center;
 }
 
+.destaques{
+  display: flex;
+  justify-content: center;
+}
+
 /* rodape */
 
 /* redes sociais */
