@@ -240,9 +240,9 @@ footer {
   }
 
   .doacoes {
-    height: auto;
-    padding: 20px;
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
   }
 
   .redes img,
